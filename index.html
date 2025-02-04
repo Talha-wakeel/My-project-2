@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS Styling -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .headerMain {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .headerchild {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .logo {
+            align-items: center;
+            display: flex;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .content {
+            position: relative;
+        }
+
+        .contentimg {
+            width: 100%;
+
+        }
+
+        .upon {
+            width: 643px;
+            height: 443px;
+            position: absolute;
+            background: #FFF3E3;
+            top: 100px;
+            left: 700px;
+            border-radius: 10px;
+            opacity: 80%;
+        }
+
+        .h3 {
+            padding: 60px 60px;
+            color: #333333;
+
+        }
+
+        .front {
+            padding: 0 60px;
+            color: #333333;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+        .unfront{
+            padding: 30px 60px;
+            color: #333333;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="headerMain">
+            <div class="headerchild">
+                <div class="logo">
+                    <img src="Meubel House_Logos-05.png" alt="">
+                    <div>
+                        <h3>Furniro</h3>
+                    </div>
+                </div>
+                <!-- <div> -->
+                <div class="navbar">
+                    <ul class="links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+                <div class="icons">
+                    <img src="Vector (1).png" alt="">
+                    <img src="heart.png" alt="">
+                    <img src="search.png" alt="">
+                    <img src="Vector.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+    <main class="content">
+        <img src="Mask Group.jpg" alt="" class="contentimg">
+        <div class="upon">
+            <div class="h3">
+                <h3>New Arrival</h3>
+            </div>
+            <div class="front">
+                <h2>Discover Our New Collection</h2>
+            </div>
+            <div class="unfront">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quam ea animi. At iure
+                reprehenderit hic ipsa sunt dolorem, non autem cumque porro dolor ratione odit laboriosam laborum et
+                consectetur.</div>
+
+        </div>
+    </main>
+</body>
+
+</html>
